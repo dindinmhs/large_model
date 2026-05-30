@@ -1,0 +1,11 @@
+# 1. Abaikan semua file dan folder
+*
+
+# 2. Jangan abaikan file .gitignore itu sendiri
+!.gitignore
+
+# 3. Jangan abaikan semua folder agar Git bisa mencari file .ipynb di dalamnya
+!*/
+
+# 4. Jangan abaikan file dengan ekstensi .ipynb
+!*.ipynb
